@@ -106,7 +106,7 @@ st.markdown(f"""
     """, unsafe_allow_html=True)
 
 # Lógica da Logo (Base64 para evitar problemas de renderização no HTML customizado)
-logo_path = r"Logos\Via Appia\PNG\Via Appia.png"
+logo_path = r"Logos/Via Appia/PNG/Via Appia.png"
 logo_data = get_base64_of_bin_file(logo_path)
 
 # Renderização da Interface
